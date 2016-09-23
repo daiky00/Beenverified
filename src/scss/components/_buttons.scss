@@ -1,0 +1,46 @@
+[class*='btn'] {
+  border: 1px solid $black-transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding: 10px 20px;
+  transition: .3s;
+
+  &:hover  {
+    opacity: .75;
+   }
+
+  &:disabled {
+    cursor: not-allowed;
+   }
+}
+
+.btn-purple {
+  background: $purple;
+  color: $white;
+}
+
+.btn-transparent-light {
+  background: transparent;
+  border-color: $white;
+  color: $white;
+}
+
+.btn-transparent-dark {
+  background: transparent;
+  border-color: $light-grey;
+  color: $light-grey;
+}
+
+.btn-expand {
+  padding: 15px 55px;
+}
+
+@media (max-width: 767px) {
+  [class*='btn'] {
+    display: block;
+    margin: 0 auto;
+  }
+
+}

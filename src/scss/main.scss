@@ -1,0 +1,28 @@
+// setup
+@import 'variables';
+
+//Helpers
+@import 'helpers/background-colors';
+@import 'helpers/text-colors';
+
+
+// vendors ---> outside resources
+@import 'vendors/bootstrap/bootstrap';
+
+//Assets ---> Font, Images ect
+@import 'assets/font-awesome/font-awesome';
+@import 'assets/bootstrap/fonts';
+
+//Components
+@import 'components/buttons';
+@import 'components/web';
+@import 'components/services';
+@import 'components/team';
+@import 'components/brands';
+@import 'components/contact';
+
+@import 'base';
+
+//Layout
+@import 'layout/header';
+@import 'layout/footer';

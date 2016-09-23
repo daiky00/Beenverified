@@ -1,0 +1,34 @@
+.team-member {
+  margin: 0 auto 30px;
+  padding: 0 20px;
+
+  i {
+    padding: 0 5px;
+  }
+
+}
+
+.team-member-img {
+  height: 190px;
+  width: 205px;
+}
+
+.team-member-name {
+  font-size: 36px;
+}
+
+.team-member-description {
+  font-size: 21px;
+}
+
+@media (max-width: 1199px) {
+  .team-member {
+    margin: 0 auto 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-member {
+    padding: 0;
+  }
+}
