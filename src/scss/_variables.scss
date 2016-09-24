@@ -1,7 +1,7 @@
 // colors
 $white: #fff;
 $purple: #5c1bb7;
-$pink: #800080;
+$pink: #ac24ac;
 $light-purple: #dbd7f0;
 $purple-transparent: rgba(92, 27, 183, .5);
 $black-transparent: rgba(0, 0, 0, .2);
@@ -22,7 +22,7 @@ $grey-reset2: '#979797';
 $font-size-base:          14px !default;
 $font-size-h1:            floor(($font-size-base * 5.05)) !default;
 $font-size-h2:            floor(($font-size-base * 3.9)) !default;
-$font-size-h3:            ceil(($font-size-base * 1.9)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.425)) !default;
 $font-size-h4:            ceil(($font-size-base * 1.5)) !default;
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * .85)) !default;
