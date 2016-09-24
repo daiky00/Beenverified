@@ -1,6 +1,7 @@
 [class*='btn'] {
   border: 1px solid $black-transparent;
   border-radius: 5px;
+  box-shadow: inset 0 -4px 0 $black-transparent;
   cursor: pointer;
   font-size: 20px;
   outline: none;
@@ -24,17 +25,20 @@
 .btn-transparent-light {
   background: transparent;
   border-color: $white;
+  box-shadow: none;
   color: $white;
 }
 
 .btn-transparent-dark {
   background: transparent;
   border-color: $light-grey;
+  box-shadow: none;
   color: $light-grey;
 }
 
 .btn-expand {
-  padding: 15px 55px;
+  font-size: 28px;
+  padding: 20px 64px;
 }
 
 @media (max-width: 767px) {

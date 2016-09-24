@@ -26,19 +26,19 @@
 .navbar {
   font-size: 26px;
   margin: 0 auto;
-  max-width: 1450px;
+  max-width: 1500px;
   padding: 20px 0 0;
 }
 
 .hello {
-  margin: 150px 0 0;
+  margin: 162px 0 0;
 }
 
 .message {
   color: $light-purple;
   font-size: 30px;
   line-height: 1.56;
-  margin: 33px 0;
+  margin: 23px 0;
 }
 
 .inline-list {
@@ -49,7 +49,7 @@
 
 .inline-list--item {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 0 0 30px;
 }
 
 .brand-name,
