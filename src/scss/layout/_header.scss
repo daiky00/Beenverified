@@ -88,10 +88,14 @@
   .navbar {
     background: $purple;
     margin: 0 -15px;
-    padding: 0 0 0 15px;
     position: fixed;
     width: 100%;
     z-index: 1;
+  }
+
+  .brand-name {
+    line-height: 2.5;
+    padding: 0 20px;
   }
 
   .inline-list {
