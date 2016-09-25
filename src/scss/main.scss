@@ -1,10 +1,10 @@
 // setup
 @import 'variables';
+@import 'base';
 
 //Helpers
 @import 'helpers/background-colors';
 @import 'helpers/text-colors';
-
 
 // vendors ---> outside resources
 @import 'vendors/bootstrap/bootstrap';
@@ -20,8 +20,6 @@
 @import 'components/team';
 @import 'components/brands';
 @import 'components/contact';
-
-@import 'base';
 
 //Layout
 @import 'layout/header';

@@ -41,14 +41,19 @@ hr {
   border-color: $medium-grey;
 }
 
+@media (max-width: 768px) {
 
-@media (max-width: 767px) {
   .section {
     padding: 50px 0;
   }
 
-  .icon-bar {
-    background: $white;
+  .section-header {
+    font-size: 42px;
+  }
+
+  .section-message {
+    font-size: 20px;
+    margin: 0 0 70px;
   }
 
 }

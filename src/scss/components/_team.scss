@@ -1,6 +1,13 @@
 .team-member {
+  border: 1px solid $grey-border;
+  border-radius: 20px;
   margin: 0 auto 30px;
-  padding: 0 20px;
+  min-height: 529px;
+  padding: 20px;
+
+  &:hover {
+    background: $yellow;
+  }
 
   i {
     padding: 0 5px;
@@ -32,8 +39,8 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .team-member {
-    padding: 0;
+    max-width: 400px;
   }
 }
