@@ -1,13 +1,15 @@
 // setup
 @import 'variables';
+
+// vendors ---> outside resources
+@import 'vendors/bootstrap/bootstrap';
+
+// base styling
 @import 'base';
 
 //Helpers
 @import 'helpers/background-colors';
 @import 'helpers/text-colors';
-
-// vendors ---> outside resources
-@import 'vendors/bootstrap/bootstrap';
 
 //Assets ---> Font, Images ect
 @import 'assets/font-awesome/font-awesome';

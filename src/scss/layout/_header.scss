@@ -82,12 +82,21 @@
   .header {
     height: 58vh;
   }
+
+  .hellow {
+    font-size: 60px;
+  }
+
+  .message {
+    font-size: 20px;
+  }
 }
 
 // Mobile
 @media (max-width: 767px) {
   .header {
-    background: url('../assets/images/office.png') no-repeat left top;
+    background: url('../assets/images/office.png') no-repeat center center;
+    color: $white;
   }
 
   .hello {
@@ -118,13 +127,18 @@
   }
 
   .inline-list--item {
-    border-bottom: 1px solid $light-purple;
+    background: $medium-purple;
+    border-bottom: 1px solid $purple;
     display: block;
-    padding: 10px 0;
+    margin: 0 -15px;
+    padding: 15px;
   }
 
-  .icon-bar {
-    background: $white;
-  }
+}
 
+@media (max-width: 667px) {
+  .header {
+    background: url('../assets/images/office.png') no-repeat top left;
+    height: 78vh;
+  }
 }

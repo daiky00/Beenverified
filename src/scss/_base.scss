@@ -29,7 +29,7 @@ hr {
 }
 
 .section {
-  padding: 140px 0 100px;
+  padding: 100px 0;
 }
 
 .section-header-xs {
@@ -46,6 +46,10 @@ hr {
 @media (max-width: 991px) {
   .section-header {
     font-size: 52px;
+  }
+
+  .section {
+    padding: 50px 0;
   }
 
   .section-message {
