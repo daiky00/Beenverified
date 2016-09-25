@@ -20,8 +20,16 @@ a {
   }
 }
 
+p {
+  color: $light-grey;
+}
+
+hr {
+  border-color: $medium-grey;
+}
+
 .section {
-  padding: 100px 0;
+  padding: 140px 0 100px;
 }
 
 .section-header-xs {
@@ -33,27 +41,15 @@ a {
   margin: 0 0 120px;
 }
 
-p {
-  color: $light-grey;
-}
+//Tablet
 
-hr {
-  border-color: $medium-grey;
-}
-
-@media (max-width: 768px) {
-
-  .section {
-    padding: 50px 0;
-  }
-
+@media (max-width: 991px) {
   .section-header {
-    font-size: 42px;
+    font-size: 52px;
   }
 
   .section-message {
-    font-size: 20px;
-    margin: 0 0 70px;
+    font-size: 25px;
   }
 
 }

@@ -8,3 +8,11 @@
   margin: 0 50px;
   max-width: 100px;
 }
+
+@media (max-width: 991px) {
+  .brand {
+    margin: 0 25px;
+    max-width: 112px;
+  }
+
+}

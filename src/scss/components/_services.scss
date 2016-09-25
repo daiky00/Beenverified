@@ -6,3 +6,12 @@
 .service-description {
   font-size: 20px;
 }
+
+//Tablet
+
+@media (max-width: 991px) {
+  .service {
+    margin: 60px 10px;
+
+  }
+}
