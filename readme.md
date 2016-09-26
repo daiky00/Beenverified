@@ -1,4 +1,4 @@
-#project for beenverified.com challenge
+#Project for beenverified.com challenge
 ####Status: `finished and update`
 
 ##Getting Started
