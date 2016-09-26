@@ -4,6 +4,14 @@ import bootstrap from 'bootstrap-sass';
 
 $( document ).ready(function() {
     console.log( "ready! to code your challenge :) beenverified.com team" );
+
+    //Animation for navigatiopn icon
+    $('.nav-icon').on('click', function(e) {
+         $(this).toggleClass('active');
+    });
+
+    //Animation for moving to section
+
     // Function to check if section exists
     function isSection(section){
         if($('section'+section).length > 0){

@@ -57,6 +57,13 @@
   }
 }
 
+
+@media (min-width: 1600px) {
+  .header {
+    max-height: 800px;
+  }
+}
+
 //Tablet
 
 @media (max-width: 991px) {
@@ -99,19 +106,9 @@
     min-height: 700px;
   }
 
-  .hello {
-    font-size: 45px;
-    margin: 130px 0 0;;
-  }
-
-  .message {
-    font-size: 25px;
-    margin: 30px 0;
-}
-
   .navbar {
     background: $purple;
-    margin: 0 -15px;
+    margin: -15px;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -121,6 +118,57 @@
     line-height: 2.5;
     padding: 0 20px;
   }
+
+  .nav-icon {
+    border-bottom: 2px solid $white;
+    border-top: 2px solid $white;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 22px;
+    margin: 14px 30px;
+    position: relative;
+    transform-origin: center;
+    transition: all .25s ease;
+    width: 30px;
+
+    &::after,
+    &::before {
+      background-color: $white;
+      content: '';
+      height: 2px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      transform-origin: center;
+      transition: all .25s ease;
+      width: 30px;
+    }
+
+    &.active {
+      border-color: transparent;
+      transform: rotate(45deg);
+
+      &::after {
+        transform: translateY(-50%) rotate(-90deg);
+        }
+    }
+}
+
+  .navbar-toggle {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hello {
+    font-size: 45px;
+    margin: 130px 0 0;;
+  }
+
+  .message {
+    font-size: 25px;
+    margin: 30px 0;
+}
 
   .inline-list {
     float: none;
