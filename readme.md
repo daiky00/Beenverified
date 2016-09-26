@@ -1,7 +1,10 @@
-#Project for beenverified.com challenge
+#Project for beenverified.com challenge made with :heart: and :coffee:
+
 ####Status: `finished and update`
 
-##Getting Started
+##Getting Started :bulb:
+
+### To get this repo install in your localhost do the following :octocat:
 
 #### 1. Install `nodejs if you dont have it`
 #### 2. Run `npm install`
@@ -21,5 +24,9 @@
 #### 9. made some `Design choices`.
 #### 10. Enjoy myself 100% while doing this little project.
 
+
+##Preview
+
+![preview](example.png)
 
 #Thanks Gred and all the beenverified.com team for the opportunity
