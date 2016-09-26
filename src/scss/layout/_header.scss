@@ -1,7 +1,9 @@
 .header {
-  background: url('../assets/images/office.png') no-repeat center top;
+  background: url('../assets/images/office.png') no-repeat top center;
   background-size: cover;
-  height: 78vh;
+  height: 100vh;
+  max-height: 695px;
+  object-fit: cover;
   position: relative;
 
   &::before {
@@ -19,11 +21,8 @@
 
 .navbar {
   font-size: 19px;
+  margin: 0 0 88px;
   padding: 20px 0 0;
-}
-
-.hello {
-  margin: 88px 0 0;
 }
 
 .message {
@@ -48,8 +47,8 @@
   font-size: 22px;
 }
 
-.brand-name,
-.inline-list--item__link {
+.inline-list--item__link,
+.brand-name {
   color: $white;
 
   &:hover {
@@ -62,25 +61,24 @@
 
 @media (max-width: 991px) {
   .header {
-    background-size: 100%;
-    height: 68vh;
+    max-height: 600px;
   }
 
-  .hello {
-    margin: 100px 0 0;
+  .navbar {
+    margin: 0 0 100px;
   }
 
   .message {
     font-size: 23px;
     line-height: 1.7;
-    margin: 14px 0;
+    margin: 14px;
   }
 
 }
 
 @media (max-width: 900px) {
   .header {
-    height: 58vh;
+    max-height: 512px;
   }
 
   .hellow {
@@ -97,6 +95,8 @@
   .header {
     background: url('../assets/images/office.png') no-repeat center center;
     color: $white;
+    height: 78vh;
+    min-height: 700px;
   }
 
   .hello {
@@ -139,6 +139,9 @@
 @media (max-width: 667px) {
   .header {
     background: url('../assets/images/office.png') no-repeat top left;
-    height: 78vh;
+  }
+
+  .inline-list--item__link {
+    display: block;
   }
 }
