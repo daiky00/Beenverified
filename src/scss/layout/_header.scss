@@ -125,7 +125,6 @@
     box-sizing: border-box;
     cursor: pointer;
     height: 22px;
-    margin: 14px 30px;
     position: relative;
     transform-origin: center;
     transition: all .25s ease;
@@ -156,7 +155,7 @@
 }
 
   .navbar-toggle {
-    margin: 0;
+    margin: 15px;
     padding: 0;
   }
 
